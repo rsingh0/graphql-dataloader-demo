@@ -1,0 +1,25 @@
+{
+  "name": "graphql_server_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.16.7",
+    "apollo-server": "^3.6.2",
+    "dataloader": "^2.1.0",
+    "graphql": "^16.3.0",
+    "lodash": "^4.17.21",
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
